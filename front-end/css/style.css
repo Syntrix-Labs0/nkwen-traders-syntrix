@@ -1,0 +1,223 @@
+/* ================================
+   NKWEN TRADERS - MAIN STYLES
+   ================================ */
+
+/* General Page Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F9F5;
+    color: #222222;
+    line-height: 1.6;
+}
+
+
+/* ================================
+   HEADER
+   ================================ */
+
+header {
+    background-color: #0B6B3A;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+
+/* ================================
+   NAVIGATION
+   ================================ */
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 20px;
+    border-bottom: 3px solid #F4B942;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #0B6B3A;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #CE1126;
+}
+
+
+/* ================================
+   MAIN CONTENT
+   ================================ */
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #0B6B3A;
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+}
+
+section p {
+    margin-bottom: 12px;
+}
+
+
+/* ================================
+   LINKS / BUTTONS
+   ================================ */
+
+main a {
+    display: inline-block;
+    background-color: #0B6B3A;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+main a:hover {
+    background-color: #F4B942;
+    color: #222222;
+}
+
+
+/* ================================
+   PRODUCT CONTAINER
+   ================================ */
+
+#product-list {
+    margin-top: 25px;
+}
+
+
+/* ================================
+   CONTACT FORM
+   ================================ */
+
+form {
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #0B6B3A;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #F4B942;
+    color: #222222;
+}
+
+
+/* ================================
+   FOOTER
+   ================================ */
+
+footer {
+    background-color: #0B6B3A;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 20px;
+}
+
+
+/* ================================
+   MOBILE RESPONSIVENESS
+   ================================ */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    main {
+        padding: 30px 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 1.4rem;
+    }
+
+}
