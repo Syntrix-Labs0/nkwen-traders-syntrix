@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nkwen Traders - Your Cart</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/catalog-style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Nkwen Traders</h1>
+        <p>Your trusted retail partner</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <section class="cart-section" aria-label="Shopping cart">
+            <h2>Your Cart</h2>
+
+            <p id="cart-empty">Your cart is empty. Head back to the <a href="catalog.html">catalog</a> to add some products.</p>
+
+            <div id="cart-items" class="cart-items"></div>
+
+            <div class="cart-summary">
+                <span>Items in cart: <strong id="cart-total-items">0</strong></span>
+                <span class="cart-total">Total: <strong id="cart-total-amount">0 FCFA</strong></span>
+            </div>
+
+            <p id="order-confirmation" class="order-confirmation"></p>
+
+            <div class="cart-actions">
+                <a href="catalog.html" class="back-to-catalog">Continue Shopping</a>
+                <button type="button" id="place-order-btn" class="place-order-btn">Place Order</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Nkwen Traders. All rights reserved.</p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+
+</html>
